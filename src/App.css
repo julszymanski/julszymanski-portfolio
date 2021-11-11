@@ -1,0 +1,53 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: Sans-serif, helvetica, arial; /* this should be the rest of the output you got from Google fonts */
+}
+
+.content {
+  max-width: 600px;
+  margin: auto;
+  border-color: black;
+}
+
+h4 {
+  font-size: 16px;
+  color: blue;
+}
+
+p {
+  font-size: 14px;
+}
+
+.big-number {
+  color: blue;
+  font-size: 40px;
+  text-align: center;
+}
+
+#line {
+  line-height: 100%;
+}
+
+#feature {
+  max-width: 15rem;
+  max-height: auto;
+  border-radius: 50%;
+  border: 4px white solid;
+  position: relative;
+  margin-top: -100px;
+}
+
+#logo {
+  width: 8rem;
+  height: auto;
+}
+
+img.thumbsup {
+  width: 100px;
+  height: auto;
+}
+
+img#banner {
+  width: 600px;
+  height: auto;
+}
