@@ -31,7 +31,7 @@
 
 body {
   font-family: Poppins;
-  background: white;
+  background: var(--dark);
   line-height: 26px;
   margin: 0;
 }
