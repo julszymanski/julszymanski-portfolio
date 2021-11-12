@@ -39,7 +39,7 @@ function MyProjects(props) {
                         <th style={{color: "#21ce99"}}>Project Name</th>
                         <th style={{color: "#21ce99"}}>Date</th>
                         <th style={{color: "#21ce99"}}>Description</th>
-                        <th style={{color: "#21ce99"}}>Quick View</th>
+                        {/* <th style={{color: "#21ce99"}}>Quick View</th> */}
                         <th style={{color: "#21ce99"}}>URL</th>
                         <th style={{color: "#21ce99"}}>Likes</th>
                     </tr>
@@ -50,7 +50,7 @@ function MyProjects(props) {
                             <td>{project.project_name}</td>
                             <td>{project.date}</td>
                             <td>{project.description}</td>
-                            <img class="apiImage" src={project.quick_view} alt={project.quick_view}/>
+                            {/* <img class="apiImage" src={project.quick_view} alt={project.quick_view}/> */}
                             <td><button onClick={(e) => {e.preventDefault();window.location.href=project.url;}}>Click to View</button></td>
                             <button><img class="thumbsup" src={thumbsup} alt="heartbutton" onClick={handleStore}/></button><h2>{likes}</h2>
 
