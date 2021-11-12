@@ -1,5 +1,6 @@
 import React from 'react'
 import headshot from '../images/2021-04-11.jpeg';
+import otherHeadshot from '../images/2021-02-28-edit-cropped.jpeg';
 import banner from '../images/banner.jpeg';
 import BDlogo from '../images/bd.jpeg';
 import Natdxlogo from '../images/natdx.jpeg';
@@ -18,7 +19,7 @@ export default function Home() {
     </div>
 
     <div class="container-fluid">
-        <img class="img-fluid" src= {headshot} id="feature" alt="headshot"/>
+        <img class="img-fluid" src= {otherHeadshot} id="feature" alt="headshot"/>
         <h1>Julia Szymanski</h1>
         <h2>Engineer Scientist</h2>
     </div>
