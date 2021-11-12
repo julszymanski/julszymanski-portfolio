@@ -36,12 +36,12 @@ function MyProjects(props) {
             <table className="table" style={{marginLeft:'5em'}}>
                 <thead>
                     <tr>
-                        <th>Project Name</th>
-                        <th>Date</th>
-                        <th>Description</th>
-                        <th>Quick View</th>
-                        <th>URL</th>
-                        <th>Likes</th>
+                        <th style={{color: "#21ce99"}}>Project Name</th>
+                        <th style={{color: "#21ce99"}}>Date</th>
+                        <th style={{color: "#21ce99"}}>Description</th>
+                        <th style={{color: "#21ce99"}}>Quick View</th>
+                        <th style={{color: "#21ce99"}}>URL</th>
+                        <th style={{color: "#21ce99"}}>Likes</th>
                     </tr>
                 </thead>
                 {
