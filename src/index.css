@@ -47,7 +47,7 @@ h1 {
 
 form {
   margin-top: 20px;
-  background: var(--dark);
+  background: white;
 }
 
 .formRow {
@@ -95,7 +95,7 @@ form {
 }
 
 .submit-btn {
-  background-color: var(--dark);
+  background-color: white;
   color: var(--green) !important;
   padding: 15px 50px;
   border: 2px solid var(--green);
