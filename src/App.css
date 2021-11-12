@@ -3,7 +3,13 @@ html {
   font-family: Sans-serif, helvetica, arial; /* this should be the rest of the output you got from Google fonts */
 }
 
+.body {
+  padding-left: 400px;
+  padding-right: 400px;
+ 
+}
 .content {
+  align-self: center;
   max-width: 600px;
   margin: auto;
   border-color: black;

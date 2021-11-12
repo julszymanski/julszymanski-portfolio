@@ -12,7 +12,7 @@ import PLQE from '../images/plqe.jpeg';
 
 export default function Home() {
     return (
-    <div>    
+    <div class="body">    
     <div class="container-fluid">
         <img class="img-fluid" src={banner} id="banner" alt="banner"/>
     </div>

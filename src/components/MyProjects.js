@@ -41,6 +41,7 @@ function MyProjects(props) {
                         <th>Description</th>
                         <th>Quick View</th>
                         <th>URL</th>
+                        <th>Likes</th>
                     </tr>
                 </thead>
                 {
@@ -51,6 +52,8 @@ function MyProjects(props) {
                             <td>{project.description}</td>
                             <img class="apiImage" src={project.quick_view} alt={project.quick_view}/>
                             <td><button onClick={(e) => {e.preventDefault();window.location.href=project.url;}}>Click to View</button></td>
+                            <button><img class="thumbsup" src={thumbsup} alt="heartbutton" onClick={handleStore}/></button><h2>{likes}</h2>
+
                         </tr>
                     ))
                 }
