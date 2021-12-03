@@ -121,3 +121,7 @@ form {
     margin-left: 200px;
   }
 }
+
+.table-sm {
+  padding: 15px;
+}
