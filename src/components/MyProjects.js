@@ -20,11 +20,13 @@ export default function MyProjects() {
       <td><img src={safetravels}/></td>
       <td>Front-End Project demonstrating knowledge of HTML, CSS, Javascript, AJAX, APIs. Quantitative API data rendered using Chart.js </td>
     </tr>
+    <hr size="3px" width="90%" color="lightgrey"/>
     <tr>
       <th scope="row">Fizzy Fizzy BathBombs <a href="https://fizzyfizzybathbombs.herokuapp.com/">Demo</a></th>
       <td><img src={fizzyfizzy}/></td>
       <td>Full-Stack Application utilizing Node, Express, Sequelize, PostgreSQL, bcrypt, Express ES6 Template Engine</td>
     </tr>
+    <hr size="3px" width="90%" color="lightgrey"/>
     <tr>
       <th scope="row">Capstone Project <a href="https://media-watch-list.herokuapp.com/">Demo</a></th>
       <td>TBD</td>

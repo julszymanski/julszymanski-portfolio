@@ -3,8 +3,11 @@ import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
+import { SocialIcon } from 'react-social-icons';
+import JuliaSzymanski from './resources/JuliaSzymanski.docx';
 
 const ContactForm = () => {
+
   const {
     register,
     handleSubmit,
@@ -63,6 +66,20 @@ const ContactForm = () => {
   };
 
   return (
+    <div>
+    {" "}
+    {" "}
+    {" "}
+    <p text-align="center">Thank you for visiting! Click on the icons below to download my resume and view other resources.</p>
+
+{/* Download CV */}
+
+    <div class="icons center">
+    <SocialIcon url={JuliaSzymanski} download /> {" "}{" "}
+    <SocialIcon url="https://github.com/julszymanski" /> {" "}{" "}
+    <SocialIcon url="https://www.linkedin.com/in/julia-szymanski-3555a7b9/" />
+    </div>
+
     <div className='ContactForm center'>
       <div className='container'>
         <div className='row'>
@@ -156,6 +173,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
