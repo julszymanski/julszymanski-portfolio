@@ -9,13 +9,13 @@ import DigitalCrafts from '../images/DigitalCrafts.jpeg';
 import UCSDExt from '../images/UCSDExt.jpeg';
 import UCSD from '../images/UCSD.jpeg';
 import PLQE from '../images/plqe.jpeg';
-
+import french from '../images/french.jpeg';
 
 export default function Home() {
     return (
     <div class="body">    
     <div class="container-fluid">
-        <img class="img-fluid" src={banner} id="banner" alt="banner"/>
+        <img class="img-fluid" src={french} id="banner" alt="banner"/>
     </div>
 
     <div class="container-fluid">
@@ -25,52 +25,14 @@ export default function Home() {
     </div>
 
     <div class="container-fluid">
-        
-        <div class="row mt-2 mb-1">
-        <h3>Experience</h3> 
-        </div>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p>Full-Stack Web Developer based in Atlanta, Georgia. I like to travel and learn new languages, programming and otherwise. Find me building websites from the ground up, and taking French and Portuguese classes in my spare time.</p>
 
-        <div class="row mb-3">
-        <div class="col-2">
-            <img src={BDlogo} alt="BDlogo" id= "logo"/>
-        </div>
+    </div>
 
-        <div class="col-10">
-            <p>Scientist</p>
-            <p>BD</p>
-            <p>Feb 2020 - Jun 2021 • 1 yr 5 mos</p>
-            <p>San Diego, CA</p>
-            <hr size="3px" width="90%" color="lightgrey"/>  
-        </div>
-        </div> 
-
-        <div class="row mb-3">
-        <div class="col-2">
-            <img src={Natdxlogo} width="100px" height="auto" alt="NATDxlogo" id="logo"/>
-        </div>
-
-        <div class="col-10">
-            <p>Research Associate</p>
-            <p>NAT Diagnostics, Inc.</p>
-            <p>Apr 2016 - Feb 2020 • 3 yrs 11 mos</p>
-            <p>San Diego, CA</p>
-            <hr size="3px" width="90%" color="lightgrey"/>
-        </div>
-        </div>
-
-        <div class="row mb-3">
-        <div class="col-2">
-            <img src={batu} alt="Batu logo" id="logo"/>
-        </div>
-
-        <div class="col-10">
-            <p>Research Technician</p>
-            <p>Batu Biologics, Inc.</p>
-            <p>Feb 2015 - Apr 2016 • 1 yr 3 mos</p>
-            <p>San Diego, CA</p>
-            <hr size="3px" width="90%" color="lightgrey"/>
-        </div>
-        </div>
+    <div class="container-fluid">
 
         <div class= "row mb-1">
         <h3>Education</h3>
@@ -125,6 +87,52 @@ export default function Home() {
             <p>Bachelor of Science (B.S.), Biochemistry and Cell Biology</p>
             <p>2010 - 2014</p>
             <hr size="3px" width="90%" color="lightgrey"/>
+        </div>
+
+        <div class="row mt-2 mb-1">
+        <h3>Experience</h3> 
+        </div>
+
+        <div class="row mb-3">
+        <div class="col-2">
+            <img src={BDlogo} alt="BDlogo" id= "logo"/>
+        </div>
+
+        <div class="col-10">
+            <p>Scientist</p>
+            <p>BD</p>
+            <p>Feb 2020 - Jun 2021 • 1 yr 5 mos</p>
+            <p>San Diego, CA</p>
+            <hr size="3px" width="90%" color="lightgrey"/>  
+        </div>
+        </div> 
+
+        <div class="row mb-3">
+        <div class="col-2">
+            <img src={Natdxlogo} width="100px" height="auto" alt="NATDxlogo" id="logo"/>
+        </div>
+
+        <div class="col-10">
+            <p>Research Associate</p>
+            <p>NAT Diagnostics, Inc.</p>
+            <p>Apr 2016 - Feb 2020 • 3 yrs 11 mos</p>
+            <p>San Diego, CA</p>
+            <hr size="3px" width="90%" color="lightgrey"/>
+        </div>
+        </div>
+
+        <div class="row mb-3">
+        <div class="col-2">
+            <img src={batu} alt="Batu logo" id="logo"/>
+        </div>
+
+        <div class="col-10">
+            <p>Research Technician</p>
+            <p>Batu Biologics, Inc.</p>
+            <p>Feb 2015 - Apr 2016 • 1 yr 3 mos</p>
+            <p>San Diego, CA</p>
+            <hr size="3px" width="90%" color="lightgrey"/>
+        </div>
         </div>
         </div>
         </div>

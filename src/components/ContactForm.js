@@ -63,7 +63,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='ContactForm'>
+    <div className='ContactForm center'>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
