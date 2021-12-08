@@ -70,7 +70,7 @@ const ContactForm = () => {
     {" "}
     {" "}
     {" "}
-    <p text-align="center">Thank you for visiting! Click on the icons below to download my resume and view other resources.</p>
+    <p class='contactForm'>Thank you for visiting! Click on the icons below to download my resume and view other resources.</p>
 
 {/* Download CV */}
 
