@@ -8,6 +8,7 @@
 }
 .navbar h1 {
   color: #f1356d;
+  font-size: 40px;
 }
 .navbar .links {
   margin-left: auto;
@@ -129,6 +130,7 @@ form {
 
 td, th {
   padding: 0 15px;
+  font-size: medium;
 }
 
 .column-one {
@@ -157,4 +159,14 @@ td, th {
 
 p.contactForm {
   text-align: center;
+}
+
+#icon i {
+  font-size: 100px;
+  color: black;
+}
+
+.col-med-3 div {
+  text-align: center;
+
 }

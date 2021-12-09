@@ -20,15 +20,15 @@ export default function Home() {
 
     <div class="container-fluid">
         <img class="img-fluid" src= {otherHeadshot} id="feature" alt="headshot"/>
-        <h1>Julia Szymanski</h1>
-        <h2>Engineer Scientist</h2>
+        <h1>Welcome!</h1>
+        <h2>I'm a Full-Stack Web Developer based in Atlanta, Georgia.</h2>
     </div>
 
     <div class="container-fluid">
     <p> </p>
     <p> </p>
     <p> </p>
-    <p>Full-Stack Web Developer based in Atlanta, Georgia. I like to travel and learn new languages, programming and otherwise. Find me building websites from the ground up, and taking French and Portuguese classes in my spare time.</p>
+    <p>I like to travel and learn new languages. Find me building websites from the ground up, and taking French and Portuguese classes in my spare time.</p>
 
     </div>
 
@@ -87,6 +87,41 @@ export default function Home() {
             <p>Bachelor of Science (B.S.), Biochemistry and Cell Biology</p>
             <p>2010 - 2014</p>
             <hr size="3px" width="90%" color="lightgrey"/>
+        </div>
+
+        <h3>Skill Set</h3>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"></link>
+        <div class="col-md-3">
+        <div id="icon"><i class="devicon-python-plain"></i></div>
+        <p text-align="center" class="lead">Python</p>
+        <div id="icon"><i class="devicon-javascript-plain"></i></div>
+        <p class="lead">Javascript</p>
+        <div id="icon"><i class="devicon-css3-plain"></i></div>
+        <p class="lead">CSS3</p>
+        </div>
+        <div class="col-md-3">
+        <div id="icon"><i class="devicon-jquery-plain"></i></div>
+        <p class="lead">jQuery</p>
+        <div id="icon"><i class="devicon-html5-plain"></i></div>
+        <p class="lead">HTML5</p>
+        <div id="icon"><i class="devicon-heroku-original"></i></div>
+        <p class="lead">Heroku</p>        
+        </div>
+        <div class="col-md-3">
+        <div id="icon"><i class="devicon-express-original"></i></div>
+        <p class="lead">Express</p>
+        <div id="icon"><i class="devicon-nodejs-plain"></i></div>
+        <p class="lead">Node.js</p>
+        <div id="icon"><i class="devicon-react-original"></i></div>
+        <p class="lead">React</p>
+        </div>
+        <div class="col-md-3">
+        <div id="icon"><i class="devicon-postgresql-plain"></i></div>
+        <p class="lead">PostgreSQL</p>
+        <div id="icon"><i class="devicon-bootstrap-plain"></i></div>
+        <p class="lead">Bootstrap</p>
+        <div id="icon"><i class="devicon-amazonwebservices-original"></i></div>
+        <p class="lead">AWS</p>
         </div>
 
         <div class="row mt-2 mb-1">

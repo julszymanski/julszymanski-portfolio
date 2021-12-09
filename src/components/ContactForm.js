@@ -67,9 +67,11 @@ const ContactForm = () => {
 
   return (
     <div>
-    {" "}
-    {" "}
-    {" "}
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+
     <p class='contactForm'>Thank you for visiting! Click on the icons below to download my resume and view other resources.</p>
 
 {/* Download CV */}
