@@ -5,6 +5,8 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { SocialIcon } from 'react-social-icons';
 import JuliaSzymanski from './resources/JuliaSzymanski.docx';
+import spanish from '../images/spanish.jpeg';
+
 
 const ContactForm = () => {
 
@@ -67,6 +69,7 @@ const ContactForm = () => {
 
   return (
     <div>
+
     <p> </p>
     <p> </p>
     <p> </p>
@@ -128,7 +131,7 @@ const ContactForm = () => {
                 </div>
                 {/* Row 2 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='col-12 text-center'>
                     <input
                       type='text'
                       name='subject'
@@ -152,7 +155,7 @@ const ContactForm = () => {
                 </div>
                 {/* Row 3 of form */}
                 <div className='row formRow'>
-                  <div className='col'>
+                  <div className='col-12'>
                     <textarea
                       rows={3}
                       name='message'
@@ -176,6 +179,9 @@ const ContactForm = () => {
         </div>
       </div>
     </div>
+    {/* <div class="row">
+        <img class="banner" src={spanish} alt="banner"/>
+    </div> */}
     </div>
   );
 };

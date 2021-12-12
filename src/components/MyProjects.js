@@ -2,11 +2,19 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import fizzyfizzy from '../images/fizzyfizzy.jpeg';
 import safetravels from '../images/safetravels.jpeg';
+import portuguese from '../images/portuguese.jpeg';
+
 
 
 export default function MyProjects() {
     return (
-      <table class="center" width="1000px">
+      <div>
+      <div class="row">
+      <img class="banner" src={portuguese} alt="banner"/>
+      </div>
+
+
+      <table class="center" align="center" width="1000px">
   <thead>
     <tr>
       <th scope="col" class="column-one">Project Name</th>
@@ -34,5 +42,6 @@ export default function MyProjects() {
     </tr>
   </tbody>
 </table>
+</div>
     );
 }

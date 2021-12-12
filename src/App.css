@@ -3,18 +3,6 @@ html {
   font-family: Sans-serif, helvetica, arial; /* this should be the rest of the output you got from Google fonts */
 }
 
-.body {
-  padding-left: 400px;
-  padding-right: 400px;
- 
-}
-
-.content {
-  align-self: center;
-  max-width: 600px;
-  margin: auto;
-  border-color: black;
-}
 
 h4 {
   font-size: 16px;
@@ -35,26 +23,15 @@ p {
   line-height: 100%;
 }
 
-#feature {
-  max-width: 13rem;
-  max-height: auto;
-  border-radius: 50%;
-  border: 4px white solid;
-  position: relative;
-  margin-top: -100px;
-}
-
 #logo {
   width: 8rem;
   height: auto;
+  text-align: center;
+
 }
 
-img.thumbsup {
-  width: 100px;
+.banner {
+  width: auto;
   height: auto;
-}
-
-img#banner {
-  width: 600px;
-  height: auto;
+  filter: grayscale(70%);
 }
