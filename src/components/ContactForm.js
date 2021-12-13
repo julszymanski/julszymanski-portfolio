@@ -6,6 +6,7 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import { SocialIcon } from 'react-social-icons';
 import JuliaSzymanski from './resources/JuliaSzymanski.docx';
 import spanish from '../images/spanish.jpeg';
+import '..'
 
 
 const ContactForm = () => {
@@ -75,21 +76,22 @@ const ContactForm = () => {
     <p> </p>
 
 
-    <p class='contactForm'>Thank you for visiting! Click on the icons below to download my resume and view other resources.</p>
+    <p class='contactForm'>Thank you for visiting! Click on the green icon below to download my resume.</p>
 
 {/* Download CV */}
 
     <div class="icons center">
-    <SocialIcon url={JuliaSzymanski} download /> {" "}{" "}
+    <SocialIcon url={JuliaSzymanski} download/> {" "}{" "}
     <SocialIcon url="https://github.com/julszymanski" /> {" "}{" "}
     <SocialIcon url="https://www.linkedin.com/in/julia-szymanski-3555a7b9/" />
     </div>
 
+<div class="App">
     <div className='ContactForm center'>
       <div className='container'>
         <div className='row'>
-          <div className='col-12 text-center'>
-            <div className='contactForm'>
+          <div className='col-12 center'>
+            <div className='contactForm col-sm-12'>
               <form id='contact-form' onSubmit={handleSubmit(onSubmit)} noValidate>
                 {/* Row 1 of form */}
                 <div className='row formRow'>
@@ -131,8 +133,9 @@ const ContactForm = () => {
                 </div>
                 {/* Row 2 of form */}
                 <div className='row formRow'>
-                  <div className='col-12 text-center'>
+                  <div className='col'>
                     <input
+                      rows={3}
                       type='text'
                       name='subject'
                       {...register('subject', {
@@ -155,7 +158,7 @@ const ContactForm = () => {
                 </div>
                 {/* Row 3 of form */}
                 <div className='row formRow'>
-                  <div className='col-12'>
+                  <div className='col'>
                     <textarea
                       rows={3}
                       name='message'
@@ -178,6 +181,7 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     {/* <div class="row">
         <img class="banner" src={spanish} alt="banner"/>

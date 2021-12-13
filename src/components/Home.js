@@ -8,6 +8,7 @@ import UCSDExt from '../images/UCSDExt.jpeg';
 import UCSD from '../images/UCSD.jpeg';
 import PLQE from '../images/plqe.jpeg';
 import french from '../images/french.jpeg';
+import julia from '../images/julia.jpeg';
 
 export default function Home() {
     return (
@@ -21,7 +22,7 @@ export default function Home() {
     {/* Headshot, About Me */}
     <div class="headshot-aboutme row">
     <div style={{width: "fit-content"}} class="col-sm-4 col-md-4 mr-3">
-        <img class="headshot" src= {otherHeadshot} alt="headshot"/>
+        <img class="headshot" src= {julia} alt="headshot"/>
     </div>
     <div class="aboutme col-sm-8 col-md-8 my-auto">
         <h2>Welcome! I'm Julia, a Full-Stack Web Developer based in Atlanta, Georgia. I like to travel and learn new languages. Find me building websites from the ground up, and taking French and Portuguese classes in my spare time.</h2>

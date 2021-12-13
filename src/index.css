@@ -120,7 +120,7 @@ td, th {
 }
 
 .ContactForm {
-  width: 800px;
+  width: device-width;
   text-align: center;
 
 }
@@ -281,7 +281,7 @@ p.contactForm {
 }
 
 .center {
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
