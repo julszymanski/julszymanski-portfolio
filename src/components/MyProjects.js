@@ -23,7 +23,7 @@ export default function MyProjects() {
       <div class="row">
       <h4>1. Safe Travels App </h4>
       <p> </p>
-      <a href="https://safetravel-s.netlify.app/"><p>Demo</p></a>
+      <a href="https://safetravel-s.netlify.app/"><p class="inline">Demo</p></a> <a href="https://github.com/lopezg3000/safe-travel-webapp"><p class="inline">GitHub</p></a>
       <img class="project" src={safetravels} alt="safe-travels-app screenshot"/>
       <p> </p>
       <p>The purpose of this site is to provide location specific details about travel restrictions, vaccination rates, and COVID cases. Built using HTML, CSS, Javascript, AJAX, APIs. Quantitative API data rendered using Chart.js </p>
@@ -34,7 +34,7 @@ export default function MyProjects() {
       <div class="row">
       <h4>2. Fizzy Fizzy BathBombs Shop</h4>
       <p> </p>
-      <a href="https://fizzyfizzybathbombs.herokuapp.com/"><p>Demo</p></a>
+      <a href="https://fizzyfizzybathbombs.herokuapp.com/"><p>Demo</p></a> <a href="https://github.com/vivekthak88/Full-Stack-Project"><p class="inline">GitHub</p></a>
       <img class="project" src={fizzyfizzy} alt="fizzyfizzy app screenshot"/>
       <p> </p>
       <p>Full-Stack Application utilizing Node, Express, Sequelize, PostgreSQL, bcrypt, Express ES6 Template Engine </p>
@@ -55,7 +55,7 @@ export default function MyProjects() {
       <div class="row">
       <h4>4. Capstone Project</h4>
       <p> </p>
-      <a href="https://media-watch-list.herokuapp.com/"><p>Demo</p></a>
+      <a href="https://media-watch-list.herokuapp.com/"><p>Demo</p></a> <a href="https://github.com/mwoolf87/media-watchlist"><p class="inline">GitHub</p></a>
       <img class="project" src={moviedb} alt="moviedb app screenshot"/>
       <p> </p>
       <p>Full-Stack Website that allows users to access movie information and add to a 'favorites' list. APIs used are The Movie Database and IMDB. Built with React, Redux, Sequelize, PostgreSQL, Bootstrap, O Auth v2.0, JWT Tokens, Sessions</p>

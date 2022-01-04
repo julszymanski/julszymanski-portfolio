@@ -285,3 +285,7 @@ p.contactForm {
   margin-right: auto;
   text-align: center;
 }
+
+.inline {
+  display: inline;
+}
