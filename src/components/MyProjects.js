@@ -5,6 +5,7 @@ import safetravels from '../images/safetravels.jpeg';
 import portuguese from '../images/portuguese.jpeg';
 import moviedb from '../images/moviedb.jpeg';
 import portfolio from '../images/portfolio.jpeg';
+import { Card, Button, Modal, Row, Col, Image } from "react-bootstrap";
 
 
 
@@ -16,52 +17,108 @@ export default function MyProjects() {
       </div>
 
 
-      <div class="center col-6" align="center" width="1000px">
+      <div class="project-card-container card-deck">
       <p> </p>
-      <h3>My Projects</h3>
+      <h1>My Projects</h1>
+      {/* Media Watch List */}
+      <Row>
+      <Col>
+      <Card className="project-card h-100" style={{ width: "35rem" }}>
+        <Card.Img variant="top" src={moviedb} />
+        <Card.Body>
+          {/* calling the title and year of the movie, within this react-bootstrap card */}
+          <Card.Title>Media Watch List</Card.Title>
+          <Card.Title>December 2021; work in progress</Card.Title>
+          <Card.Title>Full-Stack Website that allows users to access movie information and add to a 'favorites' list. APIs used are The Movie Database and IMDB. Built with React, Redux, Sequelize, PostgreSQL, Bootstrap, O Auth v2.0, JWT Tokens, Sessions.</Card.Title>
 
-      <div class="row">
-      <h4>1. Safe Travels App </h4>
-      <p> </p>
-      <a href="https://safetravel-s.netlify.app/"><p class="inline">Demo</p></a> <a href="https://github.com/lopezg3000/safe-travel-webapp"><p class="inline">GitHub</p></a>
-      <img class="project" src={safetravels} alt="safe-travels-app screenshot"/>
-      <p> </p>
-      <p>The purpose of this site is to provide location specific details about travel restrictions, vaccination rates, and COVID cases. Built using HTML, CSS, Javascript, AJAX, APIs. Quantitative API data rendered using Chart.js </p>
-    </div>
+          {/* calling dispatch to set the state of our watchlist data in reducer */}
+          {/* Parents guide from IMDB */}
+          <a href="https://media-watch-list.herokuapp.com/">
+          <Button className='submit-btn m-2'>
+            View More
+          </Button>
+          </a>
+          <a href="https://github.com/mwoolf87/media-watchlist">
+          <Button className='submit-btn m-2' fontSize="30px">
+            Github
+          </Button>
+          </a>
+        </Card.Body>
+      </Card>
+      </Col>
 
-    <hr size="3px" width="90%" color="lightgrey"/>
+      {/* Fizzy Fizzy Bathbombs */}
+      <Col>
+      <Card className="project-card h-100" style={{ width: "35rem" }}>
+        <Card.Img variant="top" src={fizzyfizzy} />
+        <Card.Body>
+          {/* calling the title and year of the movie, within this react-bootstrap card */}
+          <Card.Title>Fizzy Fizzy Bathbombs</Card.Title>
+          <Card.Title>October 2021</Card.Title>
+          <Card.Title>Full-Stack Application utilizing Node, Express, Sequelize, PostgreSQL, bcrypt, Express ES6 Template Engine.</Card.Title>
 
-      <div class="row">
-      <h4>2. Fizzy Fizzy BathBombs Shop</h4>
-      <p> </p>
-      <a href="https://fizzyfizzybathbombs.herokuapp.com/"><p>Demo</p></a> <a href="https://github.com/vivekthak88/Full-Stack-Project"><p class="inline">GitHub</p></a>
-      <img class="project" src={fizzyfizzy} alt="fizzyfizzy app screenshot"/>
-      <p> </p>
-      <p>Full-Stack Application utilizing Node, Express, Sequelize, PostgreSQL, bcrypt, Express ES6 Template Engine </p>
-    </div>
+          {/* calling dispatch to set the state of our watchlist data in reducer */}
+          {/* Parents guide from IMDB */}
+          <a href="https://fizzyfizzybathbombs.herokuapp.com/">
+          <Button className='submit-btn m-2'>
+            View More
+          </Button>
+          </a>
+          <a href="https://github.com/vivekthak88/Full-Stack-Project">
+          <Button className='submit-btn m-2' fontSize="30px">
+            Github
+          </Button>
+          </a>
+        </Card.Body>
+      </Card> 
+      </Col>
+      </Row>
 
-    <hr size="3px" width="90%" color="lightgrey"/>
+      {/* Portfolio */}
+      <Row>
+      <Col>
+      <Card className="project-card h-100" style={{ width: "35rem" }}>
+        <Card.Img variant="top" src={portfolio} />
+        <Card.Body>
+          <Card.Title>Fizzy Fizzy Bathbombs</Card.Title>
+          <Card.Title>November 2021</Card.Title>
+          <Card.Title>I built my portolfio using React!</Card.Title>
+          <a href="https://js-my-portfolio-react.herokuapp.com/">
+          <Button className='submit-btn m-2'>
+            View More
+          </Button>
+          </a>
+        </Card.Body>
+      </Card> 
+      </Col>   
 
-    <div class="row">
-      <h4>3. My Portfolio</h4>
-      <p> </p>
-      <a href="https://js-my-portfolio-react.herokuapp.com/"><p>Demo</p></a>
-      <img class="project" src={portfolio} alt="portfolio screenshot"/>
-      <p> </p>
-      <p>I built my portfolio using React!</p>
-    </div>
+      {/* Safe Travels App */}
+      <Col>
+      <Card className="project-card h-100" style={{ width: "35rem" }}>
+        <Card.Img variant="top" src={safetravels} />
+        <Card.Body>
+          {/* calling the title and year of the movie, within this react-bootstrap card */}
+          <Card.Title>Safe Travels Web App</Card.Title>
+          <Card.Title>August 2021</Card.Title>
+          <Card.Title>The purpose of this site is to provide location specific details about travel restrictions, vaccination rates, and COVID cases. Built using HTML, CSS, Javascript, AJAX, APIs. Quantitative API data rendered using Chart.js.</Card.Title>
 
-
-      <div class="row">
-      <h4>4. Capstone Project</h4>
-      <p> </p>
-      <a href="https://media-watch-list.herokuapp.com/"><p>Demo</p></a> <a href="https://github.com/mwoolf87/media-watchlist"><p class="inline">GitHub</p></a>
-      <img class="project" src={moviedb} alt="moviedb app screenshot"/>
-      <p> </p>
-      <p>Full-Stack Website that allows users to access movie information and add to a 'favorites' list. APIs used are The Movie Database and IMDB. Built with React, Redux, Sequelize, PostgreSQL, Bootstrap, O Auth v2.0, JWT Tokens, Sessions</p>
-    </div>
-  </div>
-
+          {/* calling dispatch to set the state of our watchlist data in reducer */}
+          {/* Parents guide from IMDB */}
+          <a href="https://safetravel-s.netlify.app/">
+          <Button className='submit-btn m-2'>
+            View More
+          </Button>
+          </a>
+          <a href="https://github.com/lopezg3000/safe-travel-webapp">
+          <Button className='submit-btn m-2' fontSize="30px">
+            Github
+          </Button>
+          </a>
+        </Card.Body>
+      </Card> 
+      </Col>
+      </Row>
+      </div>
 </div>
-    );
+)
 }
