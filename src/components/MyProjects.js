@@ -82,7 +82,7 @@ export default function MyProjects() {
         <Card.Body>
           <Card.Title>Fizzy Fizzy Bathbombs</Card.Title>
           <Card.Title>November 2021</Card.Title>
-          <Card.Title>I built my portolfio using React!</Card.Title>
+          <Card.Title>I built my portfolio using React!</Card.Title>
           <a href="https://js-my-portfolio-react.herokuapp.com/">
           <Button className='submit-btn m-2'>
             View More
