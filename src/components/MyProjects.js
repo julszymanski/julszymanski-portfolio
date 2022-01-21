@@ -23,7 +23,7 @@ export default function MyProjects() {
       {/* Media Watch List */}
       <Row>
       <Col>
-      <Card className="project-card h-100" style={{ width: "35rem" }}>
+      <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={moviedb} />
         <Card.Body>
           {/* calling the title and year of the movie, within this react-bootstrap card */}
@@ -49,7 +49,7 @@ export default function MyProjects() {
 
       {/* Fizzy Fizzy Bathbombs */}
       <Col>
-      <Card className="project-card h-100" style={{ width: "35rem" }}>
+      <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={fizzyfizzy} />
         <Card.Body>
           {/* calling the title and year of the movie, within this react-bootstrap card */}
@@ -77,7 +77,7 @@ export default function MyProjects() {
       {/* Portfolio */}
       <Row>
       <Col>
-      <Card className="project-card h-100" style={{ width: "35rem" }}>
+      <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={portfolio} />
         <Card.Body>
           <Card.Title>Fizzy Fizzy Bathbombs</Card.Title>
@@ -94,7 +94,7 @@ export default function MyProjects() {
 
       {/* Safe Travels App */}
       <Col>
-      <Card className="project-card h-100" style={{ width: "35rem" }}>
+      <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={safetravels} />
         <Card.Body>
           {/* calling the title and year of the movie, within this react-bootstrap card */}
