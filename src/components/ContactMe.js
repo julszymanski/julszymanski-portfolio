@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
@@ -5,6 +6,8 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { SocialIcon } from 'react-social-icons';
 import JuliaSzymanski from './resources/JuliaSzymanski.docx';
+import '..'
+
 
 
 const ContactMe = () => {
