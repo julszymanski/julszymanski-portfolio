@@ -76,7 +76,7 @@ export default function MyProjects() {
       <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={portfolio} />
         <Card.Body>
-          <Card.Title>Fizzy Fizzy Bathbombs</Card.Title>
+          <Card.Title>Portfolio</Card.Title>
           <Card.Title>November 2021</Card.Title>
           <Card.Title>I built my portfolio using React!</Card.Title>
           <a href="https://js-my-portfolio-react.herokuapp.com/">
