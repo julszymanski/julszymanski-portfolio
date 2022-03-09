@@ -5,11 +5,9 @@ import emailjs from 'emailjs-com';
 import 'react-toastify/dist/ReactToastify.min.css';
 import { SocialIcon } from 'react-social-icons';
 import JuliaSzymanski from './resources/JuliaSzymanski.docx';
-import spanish from '../images/spanish.jpeg';
-import '..'
 
 
-const ContactForm = () => {
+const ContactMe = () => {
 
   const {
     register,
@@ -183,11 +181,8 @@ const ContactForm = () => {
       </div>
     </div>
     </div>
-    {/* <div class="row">
-        <img class="banner" src={spanish} alt="banner"/>
-    </div> */}
     </div>
   );
 };
 
-export default ContactForm;
+export default ContactMe;

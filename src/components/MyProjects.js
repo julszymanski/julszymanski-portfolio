@@ -5,7 +5,7 @@ import safetravels from '../images/safetravels.jpeg';
 import portuguese from '../images/portuguese.jpeg';
 import moviedb from '../images/moviedb.jpeg';
 import portfolio from '../images/portfolio.jpeg';
-import { Card, Button, Modal, Row, Col, Image } from "react-bootstrap";
+import { Card, Button, Row, Col } from "react-bootstrap";
 
 
 

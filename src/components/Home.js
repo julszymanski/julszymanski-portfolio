@@ -1,5 +1,4 @@
 import React from 'react'
-import otherHeadshot from '../images/2021-02-28-edit-cropped.jpeg';
 import BDlogo from '../images/bd.jpeg';
 import Natdxlogo from '../images/natdx.jpeg';
 import batu from '../images/Batu.jpeg';
