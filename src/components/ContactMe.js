@@ -7,6 +7,9 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import { SocialIcon } from 'react-social-icons';
 import JuliaSzymanski from './resources/JuliaSzymanski.docx';
 import '..'
+import '../css/contactform.css';
+
+
 
 
 

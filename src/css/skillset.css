@@ -1,0 +1,8 @@
+#icon i {
+    font-size: 10em;
+    color: black;
+}
+  
+#icon::before {
+    font-size: 5em;
+}

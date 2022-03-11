@@ -1,0 +1,45 @@
+:root {
+    --light: #d0d1d3;
+    --SiteBlack: #342d2f;
+    --green: #21ce99;
+}
+
+.project-card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px 20px;
+  }
+  
+.project-card{
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 5px 15px 2px #000000; 
+    box-shadow: 0px 5px 15px 2px #000000;
+    flex: 1;
+    height: 100px;
+}
+  
+.h-100 {
+    height: 100px;
+}
+
+.submit-btn {
+    background-color: white;
+    color: var(--green) !important;
+    padding: 15px 50px;
+    border: 2px solid var(--green);
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+  
+.submit-btn:hover {
+    background-color: var(--green);
+    color: var(--dark) !important;
+    border: 2px solid var(--green);
+}
+  
+.submit-btn:disabled:hover {
+    background-color: var(--SiteBlack);
+    color: var(--green) !important;
+    cursor: wait;
+}

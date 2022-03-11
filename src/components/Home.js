@@ -9,6 +9,7 @@ import PLQE from '../images/plqe.jpeg';
 import french from '../images/french.jpeg';
 import julia from '../images/julia.jpeg';
 import SkillSet from './SkillSet';
+import '../css/aboutme.css';
 
 export default function Home() {
     return (

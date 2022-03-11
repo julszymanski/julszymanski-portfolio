@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
 import NavBar from './components/NavBar';
 import ContactMe from './components/ContactMe';
 import MyProjects from './components/MyProjects';

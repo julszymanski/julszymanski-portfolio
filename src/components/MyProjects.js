@@ -5,7 +5,8 @@ import safetravels from '../images/safetravels.jpeg';
 import portuguese from '../images/portuguese.jpeg';
 import moviedb from '../images/moviedb.jpeg';
 import portfolio from '../images/portfolio.jpeg';
-import { Card, Button, Row, Col } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
+import '../css/projects.css';
 
 
 
@@ -32,14 +33,14 @@ export default function MyProjects() {
 
 
           <a href="https://media-watch-list.herokuapp.com/">
-          <Button className='submit-btn m-2'>
+          <button className='submit-btn'>
             View More
-          </Button>
+          </button>
           </a>
           <a href="https://github.com/mwoolf87/media-watchlist">
-          <Button className='submit-btn m-2' fontSize="30px">
+          <button className='submit-btn m-2' fontSize="30px">
             Github
-          </Button>
+          </button>
           </a>
         </Card.Body>
       </Card>
@@ -56,14 +57,14 @@ export default function MyProjects() {
 
 
           <a href="https://fizzyfizzybathbombs.herokuapp.com/">
-          <Button className='submit-btn m-2'>
+          <button className='submit-btn m-2'>
             View More
-          </Button>
+          </button>
           </a>
           <a href="https://github.com/vivekthak88/Full-Stack-Project">
-          <Button className='submit-btn m-2' fontSize="30px">
+          <button className='submit-btn m-2' fontSize="30px">
             Github
-          </Button>
+          </button>
           </a>
         </Card.Body>
       </Card> 
@@ -80,14 +81,14 @@ export default function MyProjects() {
           <Card.Title>November 2021</Card.Title>
           <Card.Title>I built my portfolio using React!</Card.Title>
           <a href="https://js-my-portfolio-react.herokuapp.com/">
-          <Button className='submit-btn m-2'>
+          <button className='submit-btn m-2'>
             View More
-          </Button>
+          </button>
           </a>
           <a href="https://github.com/julszymanski/julszymanski-portfolio">
-          <Button className='submit-btn m-2' fontSize="30px">
+          <button className='submit-btn m-2' fontSize="30px">
             Github
-          </Button>
+          </button>
           </a>
         </Card.Body>
       </Card> 
@@ -105,14 +106,14 @@ export default function MyProjects() {
 
 
           <a href="https://safetravel-s.netlify.app/">
-          <Button className='submit-btn m-2'>
+          <button className='submit-btn m-2'>
             View More
-          </Button>
+          </button>
           </a>
           <a href="https://github.com/lopezg3000/safe-travel-webapp">
-          <Button className='submit-btn m-2' fontSize="30px">
+          <button className='submit-btn m-2' fontSize="30px">
             Github
-          </Button>
+          </button>
           </a>
         </Card.Body>
       </Card> 
