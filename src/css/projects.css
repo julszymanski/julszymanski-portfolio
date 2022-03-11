@@ -1,3 +1,6 @@
+.banner {
+    display: block;
+}
 :root {
     --light: #d0d1d3;
     --SiteBlack: #342d2f;
