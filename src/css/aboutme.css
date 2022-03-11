@@ -24,7 +24,7 @@ p {
 }
 
 h2 {
-    font-size: 100px;
+    font-size: calc(1.325rem + .9vw);
 }
 
 .banner {
