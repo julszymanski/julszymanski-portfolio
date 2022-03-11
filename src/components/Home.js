@@ -17,7 +17,7 @@ export default function Home() {
     // Banner
     <div>    
     <div class="row">
-        <img class="banner" src={french} alt="banner"/>
+        <img class="banner" src={french} alt="banner" style={{paddingLeft: '0', paddingRight: '0'}}/>
     </div>
 
     {/* Headshot, About Me */}
