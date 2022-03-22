@@ -7,6 +7,7 @@ import moviedb from '../images/moviedb.jpeg';
 import portfolio from '../images/portfolio.jpeg';
 import { Card, Row, Col } from "react-bootstrap";
 import '../css/projects.css';
+import twilio from '../images/twilio.jpeg';
 
 
 
@@ -23,6 +24,31 @@ export default function MyProjects() {
       <h1>My Projects</h1>
       {/* Media Watch List */}
       <Row>
+      
+      {/* Twilio React App */}
+      <Col>
+      <Card className="project-card h-100" style={{ width: "50rem" }}>
+        <Card.Img variant="top" src={twilio} />
+        <Card.Body>
+          <Card.Title>Twilio Video React App</Card.Title>
+          <Card.Title>February 2022</Card.Title>
+          <Card.Title>React application using Twilio Programmable Video APIs that allows group video conferencing and chat function. Built with React and Twilio Node.js SDK. Contact me on the 'Contact Form' tab to request demo and passcode to join group video room.</Card.Title>
+
+
+          <a href="https://video-app-0671-4634-dev.twil.io/">
+          <button className='submit-btn'>
+            View More
+          </button>
+          </a>
+          <a href="https://github.com/twilio/twilio-video-app-react">
+          <button className='submit-btn m-2' fontSize="30px">
+            Github
+          </button>
+          </a>
+        </Card.Body>
+      </Card>
+      </Col>
+
       <Col>
       <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={moviedb} />
@@ -45,8 +71,11 @@ export default function MyProjects() {
         </Card.Body>
       </Card>
       </Col>
+      </Row>
+
 
       {/* Fizzy Fizzy Bathbombs */}
+      <Row>
       <Col>
       <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={fizzyfizzy} />
@@ -69,10 +98,8 @@ export default function MyProjects() {
         </Card.Body>
       </Card> 
       </Col>
-      </Row>
 
       {/* Portfolio */}
-      <Row>
       <Col>
       <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={portfolio} />
@@ -92,9 +119,11 @@ export default function MyProjects() {
           </a>
         </Card.Body>
       </Card> 
-      </Col>   
+      </Col>  
+      </Row> 
 
       {/* Safe Travels App */}
+      <Row>
       <Col>
       <Card className="project-card h-100" style={{ width: "50rem" }}>
         <Card.Img variant="top" src={safetravels} />
