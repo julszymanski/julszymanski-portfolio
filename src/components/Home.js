@@ -26,7 +26,11 @@ export default function Home() {
         <img class="headshot" src= {julia} alt="headshot"/>
     </div>
     <div class="aboutme col-sm-8 col-md-8 my-auto">
-        <h2>Welcome! I'm Julia, a Full-Stack Web Developer based in Atlanta, Georgia. I like to travel and learn new languages. Find me building websites from the ground up, and taking French and Portuguese classes in my spare time.</h2>
+        <h2>Hello and Welcome! I'm Julia Szymanski, a software engineer with a background in life sciences and healthcare. I am a DigitalCrafts graduate with a certificate in full-stack web development.
+        <p> </p>
+        I am proficient in a variety of popular languages including Python and Javascript and well-versed with React, SQL, Express.js, and Node.js. My projects can be viewed in the 'My Projects' tab on this website.
+        <p> </p>
+        In addition to my technical knowledge of computer languages, I can speak Spanish, Portuguese, French, and Polish! When I'm not coding or taking French classes, I'm at the gym lifting weights.</h2>
     </div>
     </div>
 
