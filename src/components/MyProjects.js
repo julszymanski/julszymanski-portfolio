@@ -32,10 +32,10 @@ export default function MyProjects() {
         <Card.Body>
           <Card.Title>Twilio Video React App</Card.Title>
           <Card.Title>February 2022</Card.Title>
-          <Card.Title>React application using Twilio Programmable Video APIs that allows group video conferencing and chat function. Built with React and Twilio Node.js SDK. Contact me on the 'Contact Form' tab to request demo and passcode to join group video room.</Card.Title>
+          <Card.Title>React application using Twilio Programmable Video APIs that allows group video conferencing and chat function. Built with React and Twilio Node.js SDK.</Card.Title>
 
 
-          <a href="https://video-app-0671-4634-dev.twil.io/">
+          <a href="https://video-app-0671-4634-dev.twil.io?passcode=66490006714634">
           <button className='submit-btn'>
             View More
           </button>
