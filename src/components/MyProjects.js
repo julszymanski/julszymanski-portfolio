@@ -23,11 +23,11 @@ export default function MyProjects() {
       <p> </p>
       <h1>My Projects</h1>
       {/* Media Watch List */}
-      <Row>
-      
+      <Row className="row-col-1 row-col-md-2">
+      {/* className="project-card h-100" style={{ width: "50rem" }} */}
       {/* Twilio React App */}
-      <Col>
-      <Card className="project-card h-100" style={{ width: "50rem" }}>
+      <Col className="col-9 col-md-4">
+      <Card>
         <Card.Img variant="top" src={twilio} />
         <Card.Body>
           <Card.Title>Twilio Video React App</Card.Title>
@@ -49,8 +49,8 @@ export default function MyProjects() {
       </Card>
       </Col>
 
-      <Col>
-      <Card className="project-card h-100" style={{ width: "50rem" }}>
+      <Col className="col-9 col-md-4">
+      <Card>
         <Card.Img variant="top" src={moviedb} />
         <Card.Body>
           <Card.Title>Media Watch List</Card.Title>
@@ -75,9 +75,9 @@ export default function MyProjects() {
 
 
       {/* Fizzy Fizzy Bathbombs */}
-      <Row>
-      <Col>
-      <Card className="project-card h-100" style={{ width: "50rem" }}>
+      <Row className="row-col-1 row-col-md-2">
+      <Col className="col-9 col-md-4">
+      <Card>
         <Card.Img variant="top" src={fizzyfizzy} />
         <Card.Body>
           <Card.Title>Fizzy Fizzy Bathbombs</Card.Title>
@@ -100,8 +100,8 @@ export default function MyProjects() {
       </Col>
 
       {/* Portfolio */}
-      <Col>
-      <Card className="project-card h-100" style={{ width: "50rem" }}>
+      <Col className="col-9 col-md-4">
+      <Card>
         <Card.Img variant="top" src={portfolio} />
         <Card.Body>
           <Card.Title>Portfolio</Card.Title>
@@ -123,9 +123,9 @@ export default function MyProjects() {
       </Row> 
 
       {/* Safe Travels App */}
-      <Row>
-      <Col>
-      <Card className="project-card h-100" style={{ width: "50rem" }}>
+      <Row className="row-col-1 row-col-md-2">
+      <Col className="col-9 col-md-4">
+      <Card>
         <Card.Img variant="top" src={safetravels} />
         <Card.Body>
           {/* calling the title and year of the movie, within this react-bootstrap card */}
