@@ -8,6 +8,7 @@ import UCSD from '../images/UCSD.jpeg';
 import PLQE from '../images/plqe.jpeg';
 import french from '../images/french.jpeg';
 import julia from '../images/julia.jpeg';
+import Datadoglogo from '../images/Datadog.jpeg';
 import SkillSet from './SkillSet';
 import '../css/aboutme.css';
 
@@ -94,6 +95,20 @@ export default function Home() {
         <div class="row mt-2 mb-1">
         <h3>Experience</h3> 
         </div>
+
+        <div class="row mb-3">
+        <div class="col-sm-2">
+            <img src={Datadoglogo} alt="Datadoglogo" id= "logo"/>
+        </div>
+
+        <div class="col-sm-10">
+            <p>Sales Engineer</p>
+            <p>Datadog</p>
+            <p>May 2022 - Present</p>
+            <p>Atlanta, GA</p>
+            <hr size="3px" width="90%" color="lightgrey"/>  
+        </div>
+        </div> 
 
         <div class="row mb-3">
         <div class="col-sm-2">
